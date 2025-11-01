@@ -54,12 +54,12 @@ if (mouthOpenRatio > threshold) {
 ---
 
 ## Funcionalitats
-✅ Detecció facial amb **ml5.js FaceMesh**  
-🎃 Animacions i partícules temàtiques de **Halloween**  
-🧙‍♀️ Interfície interactiva amb **botons, sliders i selectors**  
-🎵 Efectes de so associats a l’obertura de la boca  
-📸 Opció de **fer captures** del canvas  
-💻 Aplicació empaquetada amb **Electron** per funcionar com a app d’escriptori  
+Detecció facial amb **ml5.js FaceMesh**  
+Animacions i partícules temàtiques de **Halloween**  
+Interfície interactiva amb **botons, sliders i selectors**  
+Efectes de so associats a l’obertura de la boca  
+Opció de **fer captures** del canvas  
+Aplicació empaquetada amb **Electron** per funcionar com a app d’escriptori  
 
 ---
 
