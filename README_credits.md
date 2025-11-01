@@ -19,7 +19,7 @@ A través de la càmera web, detecta en temps real **l’obertura de la boca** i
 ### Passos d’instal·lació
 1. Clona aquest repositori:
    ```bash
-   git clone https://github.com/<el-teu-usuari>/HealthySmile-Halloween.git
+   git clone https://github.com/<everoro>/HealthySmile-Halloween.git
    ```
 2. Entra al directori del projecte:
    ```bash
