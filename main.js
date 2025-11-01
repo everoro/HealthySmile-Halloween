@@ -18,7 +18,7 @@ function createWindow() {
 
   mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
-  // 🔍 activa devtools per fer debug empaquetat
+  // activa devtools per fer debug empaquetat
   // mainWindow.webContents.openDevTools({ mode: 'detach' });
 }
 
