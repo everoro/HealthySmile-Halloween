@@ -442,3 +442,28 @@ footer {
     outline: 2px solid Highlight;
   }
 }
+
+/* (afegits per a pantalles petites) */
+@media (max-width: 900px) {
+  html,
+  body {
+    overflow-y: auto;
+  }
+  #canvas-holder {
+    min-height: 240px;
+  }
+  #canvas-holder canvas {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+  body {
+    min-height: 100vh;
+  }
+}
+@media (max-width: 600px) {
+  .stage {
+    aspect-ratio: 3 / 4;
+    min-height: 70vh;
+  }
+}
