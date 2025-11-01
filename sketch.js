@@ -440,6 +440,10 @@ async function setup() {
     });
     canvasEl.addEventListener('contextmenu', (e) => e.preventDefault());
   }
+
+  setTimeout(() => {
+    windowResized();
+  }, 0);
 }
 
 // -----------------------------------------------------
@@ -1143,7 +1147,7 @@ function star(x, y, r1, r2, n) {
 // 12. VARETA/CURSOR
 // -----------------------------------------------------
 function drawMagicWand(x, y) {
-  if (mouseX >= 0 && mouseY >= 0 && mouseX <= width && mouseY <= height) noCursor();
+  if (mouseX >= 0 && mouseY >= 0 && mouseY <= height && mouseX <= width) noCursor();
   else cursor('default');
 
   push();
@@ -1366,3 +1370,4 @@ function drawWitchHat(face) {
 
   pop();
 }
+
